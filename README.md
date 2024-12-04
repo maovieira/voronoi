@@ -32,7 +32,9 @@ Voronoi [-hv -f file (stdin)] [file]
 
 ## Building
 
+```bash
 cc src/voronoi.c -o ./bin/voronoi -l geos_c
+```
 
 > There is a dummy Makefile in the directory not used at all.
 
