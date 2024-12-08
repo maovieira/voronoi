@@ -32,7 +32,9 @@ Voronoi [-hv -f file (stdin)] [file]
 
 ## Building
 
+```bash
 cc src/voronoi.c -o ./bin/voronoi -l geos_c
+```
 
 > There is a dummy Makefile in the directory not used at all.
 
@@ -42,7 +44,7 @@ cc src/voronoi.c -o ./bin/voronoi -l geos_c
 
 ## License
 
-This project is licensed under the GPLv2.1 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPLv2.1 License - see the [LICENSE](LICENSE) file for details
 
 ## Purpose
 
