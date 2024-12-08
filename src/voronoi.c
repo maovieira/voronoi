@@ -136,6 +136,7 @@ int main(int argc, char *argv[])
         
         points = GEOSGeom_createCollection(GEOS_MULTIPOINT, geoms, ngeoms);
         free(geoms);
+        geoms = NULL;
     }
     else {
         GEOSGeoJSONReader_destroy(reader);
